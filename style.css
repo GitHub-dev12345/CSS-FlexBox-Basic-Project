@@ -1,0 +1,77 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.2rem;
+    color: white;
+    margin: 20px auto;
+    width: 100%;
+    max-width: 1440px;
+    background: whitesmoke;
+}
+
+/* First Flex-container-1 CSS Code */
+.flex-container-1{
+    display: flex;
+    flex-direction: row;
+}
+
+/* Flex-Item CSS Code */
+.flex-item, #flex-item-1, .item-1{
+    width: 100%;
+    padding: 10px;
+    margin: 3px;
+    font-size: 2rem;
+    border-radius: 10px;
+    background:brown;
+    border: 1px solid black;
+}
+
+/* Inner Flex-Container-1 Flex-Count CSS Code */
+#flex-count{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+/* Inner Flex-container Keyboard CSS Code */
+.flex-count, .count, .count-1{
+    width: 29.80%;
+    margin: 3px;
+    padding: 5px;
+    font-size: 2rem;
+    font-weight: normal;
+    border-radius: 5px;
+    background: whitesmoke;
+    color: brown;
+}
+
+.count{
+    width: 21.46%;
+}
+
+.count-1{
+    width: 16.46%;
+}
+
+/* Second Flex-container-2 CSS Code */
+
+.flex-container-2{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#flex-item-1, .item-1{
+    width: 23.08%;
+}
+
+/* Third Flex-container-3 CSS Code */
+
+.flex-container-3{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.item-1{
+    width: 18.08%;
+}
